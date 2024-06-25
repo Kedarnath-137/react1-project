@@ -1,0 +1,140 @@
+
+
+/* .footer{
+    margin: 80px auto;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+/* } */ */
+
+/* .ug-program{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+/* } */ */
+
+
+/* .pg-program{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+ 
+/* .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+} */
+
+/* .bottom ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}  */
+
+/* --media query */
+/* footer.css */
+
+.footer {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer hr {
+    margin: 20px 0;
+  }
+  
+  .footer .ug-program,
+  .footer .pg-program {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer .ug-program div,
+  .footer .pg-program div {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .footer .bottom ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer .bottom ul li {
+    margin-left: 15px;
+  }
+  
+  /* Media query for tablets and below */
+  @media (max-width: 768px) {
+    .footer .ug-program,
+    .footer .pg-program {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer .bottom {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer .bottom ul {
+      margin-top: 10px;
+      flex-direction: column;
+    }
+  
+    .footer .bottom ul li {
+      margin-left: 0;
+      margin-top: 5px;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 480px) {
+    .footer {
+      padding: 10px;
+    }
+  
+    .footer h2 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+  
+    .footer hr {
+      margin: 10px 0;
+    }
+  
+    .footer .ug-program div,
+    .footer .pg-program div {
+      min-width: 100%;
+    }
+  
+    .footer .bottom p {
+      font-size: 14px;
+    }
+  
+    .footer .bottom ul li {
+      font-size: 14px;
+    }
+  }
