@@ -16,7 +16,7 @@
     border-radius:10px;
 }
 
-/* ---media query */
+
 @media (max-width:800px){
     .gallery{
         flex-wrap: wrap;

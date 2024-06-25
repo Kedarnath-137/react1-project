@@ -25,7 +25,7 @@ nav ul li {
 .menu-icon {
   display: none;
 }
-/* ----media query */
+
 
 @media (max-width: 1030px) {
   .logo {
