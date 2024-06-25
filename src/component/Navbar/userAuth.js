@@ -4,7 +4,7 @@ import React,{useState} from "react";
 import { auth } from "./firebase";
 import { createUserWithEmailAndPassword,signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
-import './userAuth.css'
+import './UserAuth.css'
 function UserAuth(){
 
     const navigate= useNavigate()
