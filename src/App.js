@@ -135,27 +135,3 @@ export default App;
 
 // export default App;
 
-// import React from "react";
-// import { BrowserRouter,Routes, Route } from "react-router-dom";
-// import Nv from "./component/react-route/navss"
-// import A1 from "./component/react-route/a1";
-// import A2 from "./component/react-route/a2";
-// import A3 from "./component/react-route/a3";
-// function App(){
-//   return(
-//     <div>
-//       <BrowserRouter>
-//       <Nv></Nv>
-//     <Routes>
-//       <Route path="/" Component={A1}></Route>
-//       <Route path="/a2" Component={A2}></Route>
-//       <Route path="/a3" Component={A3}></Route>
-
-//     </Routes>
-
-//       </BrowserRouter>
-
-//     </div>
-//   )
-// }
-// export default App;
